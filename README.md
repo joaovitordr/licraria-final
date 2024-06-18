@@ -4,27 +4,6 @@ Livraria Web
 Descrição
 Este projeto consiste em uma aplicação web de uma livraria, dividida em duas partes principais: o backend e o frontend. O backend é desenvolvido com Node.js e Express, utilizando um banco de dados SQLite para armazenamento dos livros. O frontend é construído com React, proporcionando uma interface amigável para a visualização, adição, edição e remoção de livros.
 
-livraria/
-├── backend/
-│   ├── node_modules/
-│   ├── server.js
-│   ├── package.json
-│   └── package-lock.json
-├── frontend/
-│   ├── node_modules/
-│   ├── public/
-│   │   └── index.html
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── BookList.js
-│   │   │   ├── AddBook.js
-│   │   │   ├── EditBook.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── index.css
-│   ├── package.json
-│   └── package-lock.json
-
 Comentários no Código
 Backend (server.js)
 Adicione comentários para explicar a configuração do servidor, as rotas e a manipulação do banco de dados:
